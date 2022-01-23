@@ -12,7 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { VilliansComponent } from './components/villians/villians.component';
-import { HomeTarjetaComponent } from './components/home-tarjeta/home-tarjeta.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { HomeTarjetaComponent } from './components/home-tarjeta/home-tarjeta.com
     AboutComponent,
     HeroesComponent,
     VilliansComponent,
-    HomeTarjetaComponent
+    HeroeTarjetaComponent
   ],
   imports: [
     BrowserModule,
