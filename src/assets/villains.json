@@ -7,6 +7,13 @@
         "casa": "Marvel"
     },
     {
+        "nombre": "Joker",
+        "bio": "No tiene poderes, simplemente está loco y tiene una obsesión enferma por Batman.",
+        "img": "assets/img/villains/joker.jpg",
+        "aparicion": "1940-04-01",
+        "casa": "DC"
+    },
+    {
         "nombre": "Thanos",
         "bio": "Es capaz volar, de teletrasportarse a varias partes del universo, usar telequinesis, telepatía, también tiene la capacidad de respirar en el espacio exterior y puede manipular la materia. Thanos es un consumado combatiente mano a mano, que ha sido entrenado en el arte de la guerra en Titán.",
         "img": "assets/img/villains/thanos.jpg",
@@ -19,16 +26,7 @@
         "img": "assets/img/villains/galactus.jpg",
         "aparicion": "1966-04-01",
         "casa": "Marvel"
-    },
-
-
-    {
-        "nombre": "Joker",
-        "bio": "No tiene poderes, simplemente está loco y tiene una obsesión enferma por Batman.",
-        "img": "assets/img/villains/joker.jpg",
-        "aparicion": "1940-04-01",
-        "casa": "DC"
-    },
+    },   
     {
         "nombre": "DarkSeid",
         "bio": "El poder más reconocido de DarkSeid son los Rayos Omega: El enfoca este poder como una forma de energía que dispara de sus ojos.",
