@@ -1,0 +1,46 @@
+[
+    {
+        "nombre": "Loki",
+        "bio": "Inteligencia sobrehumana, fuerza, longevidad, magia que incluye proyecciones astrales, descargas de energía, vuelo, teleportación dimensional y telepatía. Además es un experto ilusionista y puede cambiar su aspecto físico a voluntad.",
+        "img": "assets/img/villains/loki.png",
+        "aparicion": "1949-08-01",
+        "casa": "Marvel"
+    },
+    {
+        "nombre": "Thanos",
+        "bio": "Es capaz volar, de teletrasportarse a varias partes del universo, usar telequinesis, telepatía, también tiene la capacidad de respirar en el espacio exterior y puede manipular la materia. Thanos es un consumado combatiente mano a mano, que ha sido entrenado en el arte de la guerra en Titán.",
+        "img": "assets/img/villains/thanos.jpg",
+        "aparicion": "1973-02-01",
+        "casa": "Marvel"
+    },
+    {
+        "nombre": "Galactus",
+        "bio": "Poder cósmico, control absoluto de la energía cósmica, puede otorgar una fracción de su poder a sus heraldos.",
+        "img": "assets/img/villains/galactus.jpg",
+        "aparicion": "1966-04-01",
+        "casa": "Marvel"
+    },
+
+
+    {
+        "nombre": "Joker",
+        "bio": "No tiene poderes, simplemente está loco y tiene una obsesión enferma por Batman.",
+        "img": "assets/img/villains/joker.jpg",
+        "aparicion": "1940-04-01",
+        "casa": "DC"
+    },
+    {
+        "nombre": "DarkSeid",
+        "bio": "El poder más reconocido de DarkSeid son los Rayos Omega: El enfoca este poder como una forma de energía que dispara de sus ojos.",
+        "img": "assets/img/villains/darkseid.png",
+        "aparicion": "1970-11-01",
+        "casa": "DC"
+    },
+    {
+        "nombre": "Harley Quinn",
+        "bio": "Al contrario que el Joker, es capaz de simular cordura, pudiendo así fingir ser una persona \"normal\".",
+        "img": "assets/img/villains/harleyquinn.png",
+        "aparicion": "1992-09-01",
+        "casa": "DC"
+    }
+]

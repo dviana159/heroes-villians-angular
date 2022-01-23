@@ -5,16 +5,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { APP_ROUTING } from './app.routes';
 /* Services */
 import { HeroesService } from './services/heroes.service';
+import { VillainsService } from './services/villains.service';
 /* Components */
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
-import { VilliansComponent } from './components/villians/villians.component';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { VillainsTarjetaComponent } from './components/villains-tarjeta/villains-tarjeta.component';
+import { VillainsComponent } from './components/villains/villains.component';
+import { VillainComponent } from './components/villain/villain.component';
 
 @NgModule({
   declarations: [
@@ -23,17 +26,20 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     HomeComponent,
     AboutComponent,
     HeroesComponent,
-    VilliansComponent,
     HeroeTarjetaComponent,
     HeroeComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    VillainsTarjetaComponent,
+    VillainsComponent,
+    VillainComponent
   ],
   imports: [
     BrowserModule,
     APP_ROUTING
   ],
   providers: [
-    HeroesService
+    HeroesService,
+    VillainsService
   ],
   bootstrap: [AppComponent]
 })

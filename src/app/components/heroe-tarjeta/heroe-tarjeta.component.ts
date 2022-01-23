@@ -11,9 +11,7 @@ export class HeroeTarjetaComponent implements OnInit {
   @Input() heroe: any = {};
   @Input() index: number = 0;
 
-  constructor(private router: Router) {
-    
-  }
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
   }

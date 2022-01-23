@@ -4,14 +4,16 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HomeComponent } from './components/home/home.component';
-import { VilliansComponent } from './components/villians/villians.component';
+import { VillainComponent } from './components/villain/villain.component';
+import { VillainsComponent } from './components/villains/villains.component';
 
 const APP_ROUTES: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'about', component: AboutComponent },
     { path: 'heroes', component: HeroesComponent },
-    { path: 'villains', component: VilliansComponent },
+    { path: 'villains', component: VillainsComponent },
     { path: 'heroe/:id', component: HeroeComponent },
+    { path: 'villain/:id', component: VillainComponent },
     { path: 'buscar/:filtro', component: BuscadorComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
