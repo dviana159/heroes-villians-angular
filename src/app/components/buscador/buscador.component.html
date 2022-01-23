@@ -1,0 +1,16 @@
+<h1>Buscando: <small>{{ filtro }}</small></h1>
+<hr>
+<div class="container">
+    <div class="row animated fadeIn fast">
+        <div class="col-6">
+            <h3>Heroes</h3>
+            <div class="alert alert-info" *ngIf="heroes.length === 0">No existen resultados para heroes para: {{ filtro }}.</div>
+
+            <app-heroe-tarjeta *ngFor="let item of heroes" [heroe]="item" [index]="item.idx"></app-heroe-tarjeta>
+        </div>
+        <div class="col-6">
+            <h3>Villanos</h3>
+            <div class="alert alert-info">No exiten resultados para villanos para: {{ filtro }}.</div>
+        </div>
+    </div>
+</div>

@@ -1,5 +1,7 @@
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './components/about/about.component';
+import { BuscadorComponent } from './components/buscador/buscador.component';
+import { HeroeComponent } from './components/heroe/heroe.component';
 import { HeroesComponent } from './components/heroes/heroes.component';
 import { HomeComponent } from './components/home/home.component';
 import { VilliansComponent } from './components/villians/villians.component';
@@ -9,6 +11,8 @@ const APP_ROUTES: Routes = [
     { path: 'about', component: AboutComponent },
     { path: 'heroes', component: HeroesComponent },
     { path: 'villains', component: VilliansComponent },
+    { path: 'heroe/:id', component: HeroeComponent },
+    { path: 'buscar/:filtro', component: BuscadorComponent },
     { path: '**', pathMatch: 'full', redirectTo: 'home' },
 ];
 

@@ -8,6 +8,22 @@ export class HeroesService {
     getHeroes(): Heroe[] {
         return data as Heroe[];
     };
+
+    getHeroe(idx: number) {
+        return data[idx];
+    }
+
+    getHeroeFilter(filtro: string): Heroe[] {
+        let heroesArr: Heroe[] = [];
+        for (let index = 0; index < data.length; index++) {
+            if (data[index].nombre.toLowerCase().indexOf(filtro) >= 0) {
+                let heroeData: any = data[index];
+                heroeData['idx'] = index;
+                heroesArr.push(heroeData);
+            }
+        }
+        return heroesArr;
+    }
 }
 
 export interface Heroe {
@@ -16,4 +32,5 @@ export interface Heroe {
     img: string;
     aparicion: string;
     casa: string;
+    idx?: number;
 }
